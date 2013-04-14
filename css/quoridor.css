@@ -1,0 +1,62 @@
+body{
+	background-color: black;
+	color: white;
+}
+
+table{
+	width: 500px;
+	color: #333;
+}
+
+#map{
+	height: 500px;
+	width: 500px;
+	border: 1px solid #DDD;
+}
+
+td{
+	height: 29px;
+	width: 29px;
+	background-color: #DDD;
+}
+
+td:nth-child(2n) {
+	width: 5px;
+}
+
+tr:nth-child(2n)>td {
+	height: 5px;
+}
+
+.wall{
+	background-color: red;
+}
+
+.possible_wall{
+	background-color: orange;
+}
+
+.unwall{
+	background-color: #000;
+}
+
+.possible_case{
+	background-color: #777;
+}
+
+.player_red{
+	background-image : url(../img/pawn_red.png);
+	background-size : 44px 44px;
+}
+.player_blue{
+	background-image : url(../img/pawn_blue.png);
+	background-size : 44px 44px;
+}
+.player_green{
+	background-image : url(../img/pawn_green.png);
+	background-size : 44px 44px;
+}
+.player_yellow{
+	background-image : url(../img/pawn_yellow.png);
+	background-size : 44px 44px;
+}
